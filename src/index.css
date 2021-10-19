@@ -383,7 +383,6 @@ top: 450px;
 
 
 
-
 @media (max-width:942px){
   .shapeI1{
     max-width:120px;
@@ -397,10 +396,19 @@ top: 450px;
   .shape333{
    display:none;
   }
-  #myform{
-    background:white;
-  }
+
 }
 
+
+
+@media (max-width:1364px){
+  .shapeI2{
+    display:none
+  }
+  .shape333{
+    display:none;
+   }
+ 
+}
 
 
