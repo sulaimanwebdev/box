@@ -1,0 +1,89 @@
+#login {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url('../../images/bg.png') fixed center no-repeat;
+  background-size: cover;
+}
+#login .overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #EC6545 -31.41%, #F04F29 68.59%);
+  opacity: 0.7;
+}
+.z-ind{
+  z-index: 1;
+}
+#login .logo {
+  margin-top: 5rem;
+}
+#login .mid {
+  position: relative;
+  height: 70vh;
+}
+#login .login-form-row {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(-50%);
+}
+#login h1 {
+  font-weight: 700;
+  font-size: 80px;
+  color: #ffffff;
+  line-height: 90%;
+  letter-spacing: 0.03em;
+}
+#login h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 150%;
+  color: #000000;
+}
+#login .login-card {
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  padding: 1rem 1.5rem 0 1.5rem;
+}
+#login .label-form {
+  font-size: 18px;
+  line-height: 23px;
+  color: #605f5f;
+}
+#login .forget-pass {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  color: #ec6545;
+}
+#login .new-user-login {
+  font-size: 18px;
+  line-height: 23px;
+  color: #605f5f;
+}
+#login .reg-login {
+  font-size: 18px;
+  line-height: 23px;
+  color: #ec6545;
+}
+#login .login-btn {
+  background: #ec6545;
+  border-radius: 10px;
+  padding: 0.7rem 0;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+}
+#login .form-control-login:not(active) {
+  border-radius: 10px;
+  border: 1px solid #a7a3a3;
+  height: 58.93px;
+}
+#login .text {
+  font-size: 30px;
+  line-height: 130%;
+  color: #ffffff;
+}

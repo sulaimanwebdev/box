@@ -1,0 +1,80 @@
+#register {
+  position: relative;
+  background: url("../../images/bg.png") fixed center no-repeat;
+  background-size: cover;
+}
+#register .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #ec6545 -31.41%, #f04f29 68.59%);
+  opacity: 0.7;
+}
+#register .logo {
+  padding-top: 5rem;
+}
+#register h1 {
+  font-weight: 700;
+  font-size: 80px;
+  color: #ffffff;
+  line-height: 90%;
+  letter-spacing: 0.03em;
+}
+#register h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 150%;
+  color: #000000;
+}
+#register .login-card {
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  padding: 1rem 1.5rem 0 1.5rem;
+}
+#register .new-user-login {
+  font-size: 18px;
+  line-height: 23px;
+  color: #605f5f;
+}
+#register .reg-login {
+  font-size: 18px;
+  line-height: 23px;
+  color: #ec6545;
+}
+#register .login-btn {
+  background: #ec6545;
+  border-radius: 10px;
+  padding: 0.7rem 0;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+}
+#register .form-control-login:not(active) {
+  border-radius: 10px;
+  border: 1px solid #a7a3a3;
+  height: 58.93px;
+}
+#register .text {
+  font-size: 30px;
+  line-height: 130%;
+  color: #ffffff;
+}
+#register .register-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #605f5f;
+  margin-top: 2rem;
+}
+#register .mid {
+  position: relative;
+  height: 70vh;
+}
+#register .login-form-row {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(-50%);
+}
