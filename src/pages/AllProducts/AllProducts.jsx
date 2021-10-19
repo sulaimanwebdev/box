@@ -93,7 +93,7 @@ const AllProducts = () => {
             ))}
           </Row>
         </Container>
-        <img src={shape3} width="195px" height="449px"  className="shape3-img" />
+        <img src={shape3} width="195px" height="449px"  className="shape3-img shape333" />
     </>
   );
 };

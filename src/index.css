@@ -393,21 +393,24 @@ top: 450px;
     max-width:200px;
   }
 
-  .shape333{
-   display:none;
-  }
-
+  
 }
 
-
+@media (max-width:1400px){
+  .hhhhhh{
+   display:none;
+  }
+}
 
 @media (max-width:1364px){
   .shapeI2{
-    display:none
+    display:none !important;
   }
   .shape333{
-    display:none;
+    display:none !important;
    }
+
+
  
 }
 

@@ -54,7 +54,7 @@ const ProductDetails = () => {
         <img src={shape1} alt="shape" className="shapeI1" />
       </div>
       <div className="shape-right-product">
-        <img  src={shape2}   className="shapeI2"/>
+        <img  src={shape2}   className="shapeI2 hhhhhh"/>
       </div>
         <Container className="pb-5 mb-5">
           <Row>
